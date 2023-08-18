@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+*{
+  margin:0;
+  padding:0;
+}
+
+
+
+
+body{
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+  font-size:17px;
+  color:#926239;
+  line-height:1.6;
+}
+
+#showcase{
+  background-image:url('foto_fondo.png');
+  background-size:cover;
+  background-position:center;
+  width: 100%;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
+}
+
+#showcase h1{
+  font-size:50px;
+  line-height:1.2;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+#showcase .button{
+  font-size:18px;
+  text-decoration:none;
+  color:#926239;
+  border:#926239 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+}
+
+#showcase .button:hover{
+  background:#926239;
+  color:#fff;
+}
+
+#section-a{
+  padding:20px;
+  font-family: 'Roboto', sans-serif;
+  background:white;
+}
+
+.font_x{
+  font-family: 'Roboto', sans-serif;
+}
+
+.color1{
+  color:#843430;
+}
+
+.color2{
+  color:#E47A0C;
+}
+
+#section-b{
+  padding:20px;
+  background:#f4f4f4;
+  text-align:center;
+}
+
+#section-c{
+  display:flex;
+}
+
+#section-c div{
+  padding:20px;
+}
+
+#section-c .box-1, #section-c .box-3{
+  background:white;
+  color:black;
+}
+
+#section-c .box-2{
+  background:white;
+}
+
+.boton{
+  margin-top: 10px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  background-color: #E47A0C;
+  color: white;
+  transition: all 300ms;
+}
+
+.boton:hover{
+  background-color: #843430;
+}
+
+.espacio_input{
+  padding-left: 350px;
+}
+
+.input{
+  width: 100%;
+}
+
+.espacio-c{
+  margin-left: 120px;
+}
+
+.espacio-c2{
+  margin-left: 100px;
+}
+
+.espacio_check{
+  margin-left: 70px;
+}
+
+.espacio_check2{
+  margin-left: 80px;
+}
+
+.espacio_check3{
+  margin-left: 79px;
+}
+
+.espacio-arriba1{
+  margin-top: 40px;
+}
+
+.espacio-arriba{
+  margin-top: 150px;
+}
+
+.quitar-esparriba{
+  margin-top: -30px;
+}
+
+.textc{
+  font-size: 11px;
+}
